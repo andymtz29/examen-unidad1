@@ -1,0 +1,50 @@
+body {
+   /* background-image: linear-gradient(to bottom, #ddadfd,#e382f4, #ff8fda, #fe89e7); */
+   background-image: url('https://wallpaperaccess.com/full/4893666.jpg');
+}
+
+button {
+    background-image: linear-gradient(to right,#8bfdff, #76fffa, #79f5f9, #7dddfa, #7dedf1);
+}
+a {
+    text-decoration: none;
+}
+
+
+.c-user {
+    font-size: 100px;
+}
+
+.form-control {
+    color: rgb(124, 252, 114);
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: solid white 2px;
+}
+.form-control:focus {
+    color: rgb(148, 251, 116);
+    border: none;
+    border-bottom: solid rgb(128, 244, 174) 2px;
+    box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+.form-control::placeholder {
+    color: rgb(250, 245, 245);
+    font-style: italic;
+}
+
+.input-group-text {
+    color: rgb(16, 16, 16);
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: solid white 2px;
+}
+
+form {
+    background-color: rgb(36, 71, 124); 
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    backdrop-filter: blur(10px); /* Desenfoque del fondo */
+    -webkit-backdrop-filter: blur(10px); /* Soporte para Safari */
+    border: 1px solid rgba(22, 21, 21, 0.3);
+}
